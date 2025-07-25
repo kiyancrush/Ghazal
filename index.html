@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>یه حرفی باهات دارم غزل جان 💌</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: radial-gradient(circle at top left, #ffe0f0, #ffe8ff, #d0c4f7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-attachment: fixed;
+      animation: backgroundMove 15s ease infinite;
+    }@keyframes backgroundMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  text-align: center;
+  max-width: 420px;
+  backdrop-filter: blur(10px);
+  animation: fadeIn 2s ease;
+}
+
+h1 {
+  font-size: 32px;
+  color: #ff4b91;
+  margin-bottom: 20px;
+  animation: popIn 1s ease;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.romantic-line {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff1e6d;
+  margin-bottom: 30px;
+  animation: fadeIn 3s ease-in-out;
+}
+
+.btn {
+  background-color: #ff4b91;
+  color: white;
+  padding: 12px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 75, 145, 0.4);
+}
+
+.btn:hover {
+  background-color: #ff1e6d;
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>سلام غزل جان 🌹</h1>
+    <p>مدتیه می‌خوام بهت بگم که خیلی خاصی... 🥺<br>دلت می‌خواد با هم رل بزنیم؟ 💖</p>
+    <div class="romantic-line">بودنت مثل شعره، قافیه‌اش فقط با دل من جوره... ✨</div>
+    <button class="btn" onclick="alert('😍 ای جان! منتظر پیامتم 😍')">آره، دوستت دارم 💌</button>
+  </div>
+</body>
+</html>
